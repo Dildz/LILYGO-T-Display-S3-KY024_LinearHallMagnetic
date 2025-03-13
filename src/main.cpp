@@ -2,7 +2,7 @@
 * LILYGO T-Display-S3 KY-024 Linear Magnetic Hall Sensor Module
 *
 * This code reads the digital and analog signals from the KY-024 module and displays the readings on the
-* built-in screen of the LilyGO T-Display-S3 using the TFT_eSPI library.
+*  built-in screen of the LilyGO T-Display-S3 using the TFT_eSPI library.
 *
 * The module provides both digital and analog outputs:
 *  - Digital output: HIGH when no magnet is detected, LOW when a magnet is detected.
@@ -16,12 +16,12 @@
 *
 * Debouncing:
 *  To prevent flickering of the digital state when the magnet is near the detection threshold,
-*  a debounce mechanism is implemented. The digital state only changes after the signal has been
-*  stable for a specified period (e.g., 50ms).
+*   a debounce mechanism is implemented. The digital state only changes after the signal has been
+*   stable for a specified period (e.g., 50ms).
 *
 * Independent Updates:
 *  The digital state and analog value updates are handled independently. This ensures that the
-*  screen only redraws the specific element that has changed, improving performance and readability.
+*   screen only redraws the specific element that has changed, improving performance and readability.
 *
 * Wiring:
 *  - KY-024 VCC -> 3.3V
