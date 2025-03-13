@@ -7,7 +7,7 @@ The module provides both digital and analog outputs:
  - Analog output: Voltage is proportional to the strength of the magnetic field.
 
 Sensitivity Adjustment:
- The KY-024 module includes a potentiometer to adjust the sensitivity of the digital output.
+ - The KY-024 module includes a potentiometer to adjust the sensitivity of the digital output.
  - Turn the potentiometer clockwise to increase sensitivity (detect weaker magnetic fields).
  - Turn the potentiometer counterclockwise to decrease sensitivity (detect stronger magnetic fields).
  - Adjust the potentiometer until the digital output behaves as expected for your application.
