@@ -13,10 +13,12 @@ Sensitivity Adjustment:
  - Adjust the potentiometer until the digital output behaves as expected for your application.
 
 Debouncing:
- To prevent flickering of the digital state when the magnet is near the detection threshold, a debounce mechanism is implemented. The digital state only changes after the signal has been stable for a specified period (e.g., 50ms).
+ - To prevent flickering of the digital state when the magnet is near the detection threshold, a debounce mechanism is implemented.
+ - The digital state only changes after the signal has been stable for a specified period (e.g., 50ms).
 
 Independent Updates:
- The digital state and analog value updates are handled independently. This ensures that the screen only redraws the specific element that has changed, improving performance and readability.
+ - The digital state and analog value updates are handled independently.
+ - This ensures that the screen only redraws the specific element that has changed, improving performance and readability.
 
 Wiring:
  - KY-024 VCC -> 3.3V
